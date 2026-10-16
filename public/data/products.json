@@ -3,15 +3,15 @@
     "id": 1,
     "name": "[*KIDS] Urbanas",
     "description": "Zapatillas Adidas Superstar infantiles, diseño clásico con puntera de goma y cierre con abrojo. Ideales para primeros pasos y looks urbanos.",
-    "price": 55.0,
+    "price": 55000,
     "image": "/img/footwear/adidas-kids.jpeg",
     "category": "infantil"
   },
   {
     "id": 2,
     "name": "[*KIDS] Crocs",
-    "description": "Zuecos infantiles livianos y cómodos. Resistentes al agua, con perforaciones para ventilación y tira trasera ajustable. Perfectos para jugar, pasear y disfrutar del verano.",
-    "price": 35.0,
+    "description": "Calzado juvenil liviano y cómodo. Resistente al agua, con perforaciones para ventilación y tira trasera ajustable. Perfectos para jugar, pasear y disfrutar del verano.",
+    "price": 35000,
     "image": "/img/footwear/crocs-kids.webp",
     "category": "infantil"
   },
