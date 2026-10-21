@@ -26,18 +26,18 @@ export const CartProvider = ({ children }) => {
 
   const addItem = (item) => {
     if (isInCart(item)) {
-      alert("El producto ya existe en tu carrito");
+      alert("⚠️ El producto ya existe en tu carrito");
       return;
     }
 
     setCart([...cart, item]);
-    alert("Producto agregado!");
+    alert("✅ ¡Producto agregado!");
   };
 
   const removeItem = (id) => {
     const updatedCart = cart.filter((element) => element.id !== id);
-    serCart(updatedCart);
-    alert("Producto eliminado");
+    setCart(updatedCart);
+    alert("🗑️ Producto eliminado");
   };
 
   const clearCart = () => {
@@ -54,7 +54,7 @@ export const CartProvider = ({ children }) => {
   };
 
   const checkout = () => {
-    alert("Su compra ha sido realizada!");
+    alert("✅ Pago confirmado: ¡Gracias por su compra!");
     clearCart();
     navigate("/");
   };
